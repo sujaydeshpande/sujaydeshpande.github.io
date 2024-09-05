@@ -16,7 +16,10 @@ body {
     line-height: 1.5;
     color: #555;
     font-family: 'Nunito Sans', sans-serif;
-    overflow: hidden;
+}
+body::-webkit-scrollbar {
+  width: 0;
+  height: 0;
 }
 
 article,
